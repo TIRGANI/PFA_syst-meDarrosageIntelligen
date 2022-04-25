@@ -1,0 +1,28 @@
+{
+  "pfaApp": {
+    "alerte": {
+      "home": {
+        "title": "Alertes",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Alerte",
+        "createOrEditLabel": "Créer ou éditer un Alerte",
+        "notFound": "Aucun Alerte trouvé"
+      },
+      "created": "Un nouveau Alerte a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Alerte avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Alerte avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Alerte {{ id }} ?"
+      },
+      "detail": {
+        "title": "Alerte"
+      },
+      "id": "ID",
+      "humidite": "Humidite",
+      "temperature": "Temperature",
+      "luminosite": "Luminosite",
+      "parcelle": "Parcelle",
+      "boitier": "Boitier"
+    }
+  }
+}

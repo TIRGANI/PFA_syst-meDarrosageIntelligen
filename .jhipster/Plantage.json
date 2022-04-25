@@ -1,0 +1,39 @@
+{
+  "applications": "*",
+  "changelogDate": "20220418161228",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "plantage",
+  "fields": [
+    {
+      "fieldName": "date",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nbrPlate",
+      "fieldType": "Integer"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Plantage",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "plante",
+      "otherEntityRelationshipName": "plantage",
+      "ownerSide": true,
+      "relationshipName": "plante",
+      "relationshipType": "many-to-many"
+    },
+    {
+      "otherEntityName": "parcelle",
+      "otherEntityRelationshipName": "plantage",
+      "ownerSide": false,
+      "relationshipName": "parcelle",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "no"
+}

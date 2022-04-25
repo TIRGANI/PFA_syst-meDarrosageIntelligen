@@ -1,0 +1,29 @@
+{
+  "pfaApp": {
+    "typePlant": {
+      "home": {
+        "title": "TypePlants",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Type Plant",
+        "createOrEditLabel": "Créer ou éditer un Type Plant",
+        "notFound": "Aucun Type Plant trouvé"
+      },
+      "created": "Un nouveau Type Plant a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Type Plant avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Type Plant avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Type Plant {{ id }} ?"
+      },
+      "detail": {
+        "title": "Type Plant"
+      },
+      "id": "ID",
+      "lebelle": "Lebelle",
+      "humiditeMax": "Humidite Max",
+      "humiditeMin": "Humidite Min",
+      "temperature": "Temperature",
+      "luminisite": "Luminisite",
+      "plante": "Plante"
+    }
+  }
+}

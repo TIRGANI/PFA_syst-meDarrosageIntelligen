@@ -1,0 +1,28 @@
+{
+  "pfaApp": {
+    "boitier": {
+      "home": {
+        "title": "Boitiers",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Boitier",
+        "createOrEditLabel": "Créer ou éditer un Boitier",
+        "notFound": "Aucun Boitier trouvé"
+      },
+      "created": "Un nouveau Boitier a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Boitier avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Boitier avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Boitier {{ id }} ?"
+      },
+      "detail": {
+        "title": "Boitier"
+      },
+      "id": "ID",
+      "reference": "Reference",
+      "type": "Type",
+      "alerte": "Alerte",
+      "brache": "Brache",
+      "affectation": "Affectation"
+    }
+  }
+}

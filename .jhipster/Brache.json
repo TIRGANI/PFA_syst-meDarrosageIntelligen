@@ -1,0 +1,36 @@
+{
+  "applications": "*",
+  "changelogDate": "20220418161232",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "brache",
+  "fields": [
+    {
+      "fieldName": "branche",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Brache",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "capteur",
+      "otherEntityRelationshipName": "brache",
+      "ownerSide": true,
+      "relationshipName": "capteur",
+      "relationshipType": "many-to-many"
+    },
+    {
+      "otherEntityName": "boitier",
+      "otherEntityRelationshipName": "brache",
+      "ownerSide": false,
+      "relationshipName": "boitier",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "no"
+}

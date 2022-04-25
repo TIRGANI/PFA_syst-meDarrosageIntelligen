@@ -7,6 +7,19 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entités",
+        "historique": "Historique",
+        "typeSol": "Type Sol",
+        "parcelle": "Parcelle",
+        "ferm": "Ferm",
+        "alerte": "Alerte",
+        "affectation": "Affectation",
+        "grandeur": "Grandeur",
+        "plantage": "Plantage",
+        "plante": "Plante",
+        "typePlant": "Type Plant",
+        "boitier": "Boitier",
+        "brache": "Brache",
+        "capteur": "Capteur",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

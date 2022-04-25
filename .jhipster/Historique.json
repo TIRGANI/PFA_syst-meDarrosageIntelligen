@@ -1,0 +1,31 @@
+{
+  "applications": "*",
+  "changelogDate": "20220418161221",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "historique",
+  "fields": [
+    {
+      "fieldName": "dateArosage",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "qttEau",
+      "fieldType": "Integer"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Historique",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "parcelle",
+      "otherEntityRelationshipName": "historique",
+      "relationshipName": "parcelle",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

@@ -1,0 +1,32 @@
+{
+  "applications": "*",
+  "changelogDate": "20220418161224",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "ferm",
+  "fields": [
+    {
+      "fieldName": "numParcelle",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "photo",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Ferm",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "parcelle",
+      "otherEntityRelationshipName": "ferm",
+      "ownerSide": false,
+      "relationshipName": "parcelle",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "no"
+}

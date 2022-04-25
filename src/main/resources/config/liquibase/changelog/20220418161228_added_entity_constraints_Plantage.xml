@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+    <!--
+        Added the constraints for entity Plantage.
+    -->
+    <changeSet id="20220418161228-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="plantage_id"
+                                 baseTableName="rel_plantage__plante"
+                                 constraintName="fk_rel_plantage__plante__plantage_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="plantage"/>
+
+        <addForeignKeyConstraint baseColumnNames="plante_id"
+                                 baseTableName="rel_plantage__plante"
+                                 constraintName="fk_rel_plantage__plante__plante_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="plante"/>
+    </changeSet>
+</databaseChangeLog>

@@ -1,0 +1,26 @@
+{
+  "pfaApp": {
+    "typeSol": {
+      "home": {
+        "title": "TypeSols",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Type Sol",
+        "createOrEditLabel": "Créer ou éditer un Type Sol",
+        "notFound": "Aucun Type Sol trouvé"
+      },
+      "created": "Un nouveau Type Sol a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Type Sol avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Type Sol avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Type Sol {{ id }} ?"
+      },
+      "detail": {
+        "title": "Type Sol"
+      },
+      "id": "ID",
+      "libelle": "Libelle",
+      "type": "Type",
+      "parcelle": "Parcelle"
+    }
+  }
+}

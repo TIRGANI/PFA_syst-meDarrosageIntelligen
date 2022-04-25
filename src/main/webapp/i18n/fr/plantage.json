@@ -1,0 +1,27 @@
+{
+  "pfaApp": {
+    "plantage": {
+      "home": {
+        "title": "Plantages",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Plantage",
+        "createOrEditLabel": "Créer ou éditer un Plantage",
+        "notFound": "Aucun Plantage trouvé"
+      },
+      "created": "Un nouveau Plantage a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Plantage avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Plantage avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Plantage {{ id }} ?"
+      },
+      "detail": {
+        "title": "Plantage"
+      },
+      "id": "ID",
+      "date": "Date",
+      "nbrPlate": "Nbr Plate",
+      "plante": "Plante",
+      "parcelle": "Parcelle"
+    }
+  }
+}

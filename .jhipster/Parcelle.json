@@ -1,0 +1,69 @@
+{
+  "applications": "*",
+  "changelogDate": "20220418161223",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "parcelle",
+  "fields": [
+    {
+      "fieldName": "surface",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "photo",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Parcelle",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "historique",
+      "otherEntityRelationshipName": "parcelle",
+      "relationshipName": "historique",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "grandeur",
+      "otherEntityRelationshipName": "parcelle",
+      "relationshipName": "grandeur",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "affectation",
+      "otherEntityRelationshipName": "parcelle",
+      "relationshipName": "affectation",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "ferm",
+      "otherEntityRelationshipName": "parcelle",
+      "ownerSide": true,
+      "relationshipName": "ferm",
+      "relationshipType": "many-to-many"
+    },
+    {
+      "otherEntityName": "plantage",
+      "otherEntityRelationshipName": "parcelle",
+      "ownerSide": true,
+      "relationshipName": "plantage",
+      "relationshipType": "many-to-many"
+    },
+    {
+      "otherEntityName": "typeSol",
+      "otherEntityRelationshipName": "parcelle",
+      "relationshipName": "typeSol",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "alerte",
+      "otherEntityRelationshipName": "parcelle",
+      "relationshipName": "alerte",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

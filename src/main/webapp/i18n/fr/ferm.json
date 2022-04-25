@@ -1,0 +1,26 @@
+{
+  "pfaApp": {
+    "ferm": {
+      "home": {
+        "title": "Ferms",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Ferm",
+        "createOrEditLabel": "Créer ou éditer un Ferm",
+        "notFound": "Aucun Ferm trouvé"
+      },
+      "created": "Un nouveau Ferm a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Ferm avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Ferm avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Ferm {{ id }} ?"
+      },
+      "detail": {
+        "title": "Ferm"
+      },
+      "id": "ID",
+      "numParcelle": "Num Parcelle",
+      "photo": "Photo",
+      "parcelle": "Parcelle"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "pfaApp": {
+    "grandeur": {
+      "home": {
+        "title": "Grandeurs",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Grandeur",
+        "createOrEditLabel": "Créer ou éditer un Grandeur",
+        "notFound": "Aucun Grandeur trouvé"
+      },
+      "created": "Un nouveau Grandeur a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Grandeur avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Grandeur avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Grandeur {{ id }} ?"
+      },
+      "detail": {
+        "title": "Grandeur"
+      },
+      "id": "ID",
+      "type": "Type",
+      "valeur": "Valeur",
+      "date": "Date",
+      "parcelle": "Parcelle"
+    }
+  }
+}

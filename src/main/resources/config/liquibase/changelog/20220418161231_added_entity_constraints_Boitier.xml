@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+    <!--
+        Added the constraints for entity Boitier.
+    -->
+    <changeSet id="20220418161231-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="alerte_id"
+                                 baseTableName="boitier"
+                                 constraintName="fk_boitier__alerte_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="alerte"/>
+
+        <addForeignKeyConstraint baseColumnNames="boitier_id"
+                                 baseTableName="rel_boitier__brache"
+                                 constraintName="fk_rel_boitier__brache__boitier_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="boitier"/>
+
+        <addForeignKeyConstraint baseColumnNames="brache_id"
+                                 baseTableName="rel_boitier__brache"
+                                 constraintName="fk_rel_boitier__brache__brache_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="brache"/>
+    </changeSet>
+</databaseChangeLog>

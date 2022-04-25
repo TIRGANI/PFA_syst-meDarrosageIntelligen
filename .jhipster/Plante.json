@@ -1,0 +1,44 @@
+{
+  "applications": "*",
+  "changelogDate": "20220418161229",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "plante",
+  "fields": [
+    {
+      "fieldName": "lebelle",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "photo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "racin",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Plante",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "typePlant",
+      "otherEntityRelationshipName": "plante",
+      "ownerSide": true,
+      "relationshipName": "typePlant",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "plantage",
+      "otherEntityRelationshipName": "plante",
+      "ownerSide": false,
+      "relationshipName": "plantage",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "no"
+}

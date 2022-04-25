@@ -1,0 +1,27 @@
+{
+  "pfaApp": {
+    "affectation": {
+      "home": {
+        "title": "Affectations",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Affectation",
+        "createOrEditLabel": "Créer ou éditer un Affectation",
+        "notFound": "Aucun Affectation trouvé"
+      },
+      "created": "Un nouveau Affectation a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Affectation avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Affectation avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Affectation {{ id }} ?"
+      },
+      "detail": {
+        "title": "Affectation"
+      },
+      "id": "ID",
+      "dateDebut": "Date Debut",
+      "dateFin": "Date Fin",
+      "boitier": "Boitier",
+      "parcelle": "Parcelle"
+    }
+  }
+}

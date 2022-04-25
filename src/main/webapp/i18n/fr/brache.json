@@ -1,0 +1,26 @@
+{
+  "pfaApp": {
+    "brache": {
+      "home": {
+        "title": "Braches",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Brache",
+        "createOrEditLabel": "Créer ou éditer un Brache",
+        "notFound": "Aucun Brache trouvé"
+      },
+      "created": "Un nouveau Brache a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Brache avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Brache avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Brache {{ id }} ?"
+      },
+      "detail": {
+        "title": "Brache"
+      },
+      "id": "ID",
+      "branche": "Branche",
+      "capteur": "Capteur",
+      "boitier": "Boitier"
+    }
+  }
+}

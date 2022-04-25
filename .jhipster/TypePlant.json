@@ -1,0 +1,49 @@
+{
+  "applications": "*",
+  "changelogDate": "20220418161230",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "type_plant",
+  "fields": [
+    {
+      "fieldName": "lebelle",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "humiditeMax",
+      "fieldType": "Float",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "humiditeMin",
+      "fieldType": "Float",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "temperature",
+      "fieldType": "Float",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "luminisite",
+      "fieldType": "Float",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "TypePlant",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "plante",
+      "otherEntityRelationshipName": "typePlant",
+      "ownerSide": false,
+      "relationshipName": "plante",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "service": "no"
+}

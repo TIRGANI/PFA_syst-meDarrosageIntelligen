@@ -1,0 +1,37 @@
+{
+  "applications": "*",
+  "changelogDate": "20220418161226",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "affectation",
+  "fields": [
+    {
+      "fieldName": "dateDebut",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateFin",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Affectation",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "boitier",
+      "otherEntityRelationshipName": "affectation",
+      "relationshipName": "boitier",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "parcelle",
+      "otherEntityRelationshipName": "affectation",
+      "relationshipName": "parcelle",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

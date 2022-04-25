@@ -1,0 +1,42 @@
+{
+  "applications": "*",
+  "changelogDate": "20220418161225",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "alerte",
+  "fields": [
+    {
+      "fieldName": "humidite",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "temperature",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "luminosite",
+      "fieldType": "Float"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Alerte",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "parcelle",
+      "otherEntityRelationshipName": "alerte",
+      "relationshipName": "parcelle",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "boitier",
+      "otherEntityRelationshipName": "alerte",
+      "ownerSide": false,
+      "relationshipName": "boitier",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "service": "no"
+}
